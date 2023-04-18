@@ -136,3 +136,6 @@ dmypy.json
 
 # mac stuff
 .DS_Store
+
+# Sphinx docs autogen
+docs/reference/
