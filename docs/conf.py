@@ -33,9 +33,16 @@ autodoc_default_options = {
     "inherited-members": True,
 }
 
+# https://myst-parser.readthedocs.io/en/latest/configuration.html
 # https://myst-nb.readthedocs.io/en/latest/configuration.html
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_image",
+]
 nb_execution_mode = "off"
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
